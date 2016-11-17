@@ -1,0 +1,5 @@
+#!/bin/bash
+cd ~/Desktop/Rtl8812au
+make
+sudo make install
+sudo modprobe 8812au
